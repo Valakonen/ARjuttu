@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+<script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4;'>
+
+            <a-marker type='barcode' value='20'>
+              <a-plane rotation='-90 0 0' position='0 0.1 0' scale="1.2 1.2 1.2" material='color: white;'></a-plane>
+              <a-text rotation="-90 0 0" position="-0.5 0.15 0" color="black" scale="1.2 1.2 1.2" value="Product 1"></a-text>
+            </a-marker>
+
+            <a-marker type='barcode' value='21'>
+              <a-plane rotation='-90 0 0' position='0 0.1 0' material='color: green;'></a-plane>
+              <a-text rotation="-90 0 0" position="-0.5 0.15 0" color="black" scale="0.6 0.6 0.6" value="Product 2 \n-Feature1 \n-Feature2 \n-Feature3"></a-text>
+            </a-marker>
+
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
+
+
+
+<!--<a-scene embedded arjs>
+  <a-marker preset="hiro">
+      <a-plane rotation='-90 0 0' position='0 0.1 0' material='color: white;'></a-plane>
+      <a-text rotation="-90 0 0" position="-1 0.15 -1" color="black" scale="1.2 1.2 1.2" value="Hello, World!"></a-text>
+  </a-marker>
+-->
