@@ -8,10 +8,13 @@
 
             <a-assets>
               <a-asset-item id="logo" response-type=“arraybuffer” src="Logo.glb"></a-asset-item>
+              <a-asset-item id="logo2" src="Rentukka.obj"></a-asset-item>
+              <a-asset-item id="logo2m" src="/Rentukka.mtl"></a-asset-item>
             </a-assets>
 
             <a-marker smooth='true' type='barcode' value='0'>
               <a-entity gltf-model="#logo" position="0 0.1 0" scale="0.2 0.2 0.2"></a-entity>
+              <a-entity obj-model="obj: #logo2; mtl: #logo2m"></a-entity>
               <!-- <a-box position='0 0.1 0' material='color: red;'></a-box> -->
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 0"></a-text>
             </a-marker>
