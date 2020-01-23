@@ -7,7 +7,11 @@
 
 
             <a-assets>
-              <a-asset-item id="windmill" response-type=“arraybuffer” src="Windmill.glb"></a-asset-item>
+              <a-asset-item id="logo" response-type=“arraybuffer” src="Windmill.glb"></a-asset-item>
+
+              <a-asset-item id="windmill" src="Windmill.obj"></a-asset-item>
+              <a-asset-item id="windmillm" src="Windmill.mtl"></a-asset-item>
+
               <a-asset-item id="logo2" src="Rentukka.obj"></a-asset-item>
               <a-asset-item id="logo2m" src="Rentukka.mtl"></a-asset-item>
             </a-assets>
@@ -20,7 +24,7 @@
             </a-marker>
 
             <a-marker type='barcode' value='1'>
-              <a-entity gltf-model="#windmill"></a-entity>
+              <a-entity obj-model="obj: #windmill; mtl: #windmillm"></a-entity>
               <!-- <a-box position='0 0.1 0' material='color: green;'></a-box> -->
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 1"></a-text>
             </a-marker>
