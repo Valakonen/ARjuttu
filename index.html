@@ -21,12 +21,14 @@
               <a-asset-item id="logo2m" src="Rentukka.mtl"></a-asset-item> -->
 
               <a-asset-item id="logo2" src="Logo_Separate.gltf"></a-asset-item>
+              <a-asset-item id="logom" src="Logo_Separate.bin"></a-asset-item>
 
             </a-assets>
 
      <a-entity camera>
 
             <a-marker smooth='true' size='0.05' type='barcode' value='0'>
+              <a-entity gltf-model="#logo2"></a-entity>
               <a-entity gltf-model="#logo2"></a-entity>
               <!-- <a-entity obj-model="obj: #logo2; mtl: #logo2;" animation="property: rotation; to:0 360 0; dur: 5000; easing: linear; loop: true"></a-entity> -->
               <!-- <a-box position='0 0.1 0' material='color: red;'></a-box> -->
