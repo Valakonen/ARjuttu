@@ -1,0 +1,168 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Empty.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                -0.14756539463996887,
+                -2.735975980758667,
+                0
+            ]
+        },
+        {
+            "name" : "Text",
+            "rotation" : [
+                0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                1.1756339073181152,
+                1.1756339073181152,
+                1.1756339073181152
+            ],
+            "translation" : [
+                -1.7831640243530273,
+                0.599930465221405,
+                -0.11724741756916046
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Text.001",
+            "rotation" : [
+                0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ],
+            "scale" : [
+                1.1756339073181152,
+                1.1756339073181152,
+                1.1756339073181152
+            ],
+            "translation" : [
+                0.0031511783599853516,
+                0.0029218196868896484,
+                -0.7569527626037598
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "White",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.950181782245636,
+                    0.950181782245636,
+                    0.950181782245636,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.2368420958518982
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 5288,
+            "max" : [
+                1.6379120349884033,
+                0.6609740257263184,
+                -0.5023285150527954
+            ],
+            "min" : [
+                -1.4763202667236328,
+                0.45464983582496643,
+                -5.088412284851074
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 5288,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 5288,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 10392,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 63456,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 63456,
+            "byteOffset" : 63456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 42304,
+            "byteOffset" : 126912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20784,
+            "byteOffset" : 169216
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 190000,
+            "uri" : "Logo_Separate.bin"
+        }
+    ]
+}
