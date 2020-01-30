@@ -2,7 +2,7 @@
 <html>
 <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
 <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
-  
+
 
 
 <script src="events.js"></script>
@@ -13,9 +13,12 @@
 
             <a-assets>
               <a-asset-item id="logo" response-type=“arraybuffer” src="Windmill.glb"></a-asset-item>
-
+              <!--
               <a-asset-item id="windmill" src="Windmill.obj"></a-asset-item>
               <a-asset-item id="windmillm" src="Windmill.mtl"></a-asset-item>
+            -->
+
+              <a-asset-item id="windmill" src="Windmill.gltf"></a-asset-item>
 
               <!-- <a-asset-item id="logo2" src="Rentukka.obj"></a-asset-item>
               <a-asset-item id="logo2m" src="Rentukka.mtl"></a-asset-item> -->
@@ -29,14 +32,14 @@
 
             <a-marker smooth='true' size='0.05' type='barcode' value='0'>
               <a-entity gltf-model="#logo2"></a-entity>
-             
+
               <!-- <a-entity obj-model="obj: #logo2; mtl: #logo2;" animation="property: rotation; to:0 360 0; dur: 5000; easing: linear; loop: true"></a-entity> -->
               <!-- <a-box position='0 0.1 0' material='color: red;'></a-box> -->
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 0"></a-text>
             </a-marker>
 
             <a-marker smooth='true' type='barcode' value='1'>
-              <a-entity obj-model="obj: #windmill; mtl: #windmillm"></a-entity>
+              <a-entity gltf-model="#windmill"></a-entity>
               <!-- <a-box position='0 0.1 0' material='color: green;'></a-box> -->
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 1"></a-text>
             </a-marker>
