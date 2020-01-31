@@ -19,7 +19,14 @@ AFRAME.registerComponent('markerhandler', {
 
 function toggleInfo()
 {
-  document.getElementById("info2").style.display = "block";
+  if (document.getElementById("info2").style.display == "none")
+  {
+    document.getElementById("info2").style.display = "block";
+  }
+  else
+  {
+    document.getElementById("info2").style.display = "none";
+  }  
 }
 
 // ev.detail.intersectedEl
