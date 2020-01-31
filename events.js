@@ -15,4 +15,13 @@ AFRAME.registerComponent('markerhandler', {
         });
 }});
 
+var helpBtn = $(".help");
+var infoDiv = $(".info");
+
+helpBtn.click(funktion(){
+  infoDiv.css({
+    display: "block"
+  });
+})
+
 // ev.detail.intersectedEl
