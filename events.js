@@ -1,3 +1,4 @@
+/*
 AFRAME.registerComponent('markerhandler', {
 
     init: function() {
@@ -14,14 +15,13 @@ AFRAME.registerComponent('markerhandler', {
             }
         });
 }});
+*/
 
 var helpBtn = $(".help");
 var infoDiv = $(".info");
 
 helpBtn.click(funktion(){
-  infoDiv.css({
-    display: "block"
-  });
-})
+  document.getElementById("info2").style.display = "block";
+});
 
 // ev.detail.intersectedEl
