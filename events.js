@@ -17,11 +17,9 @@ AFRAME.registerComponent('markerhandler', {
 }});
 */
 
-var helpBtn = $(".help");
-var infoDiv = $(".info");
-
-helpBtn.click(funktion(){
+function toggleInfo()
+{
   document.getElementById("info2").style.display = "block";
-});
+}
 
 // ev.detail.intersectedEl
