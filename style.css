@@ -11,6 +11,7 @@
 
 .btn
 {
+  user-select: none;
   background: blue;
   width: 60px;
   height: 60px;
