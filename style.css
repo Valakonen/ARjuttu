@@ -13,10 +13,11 @@
 {
   user-select: none;
   background: blue;
-  width: 60px;
-  height: 60px;
   text-align: center;
   display: inline-block;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 4px;
 }
 
 
