@@ -19,13 +19,13 @@ AFRAME.registerComponent('markerhandler', {
 
 function toggleInfo()
 {
-  if (document.getElementById("info2").style.display == "block")
+  if (document.getElementById("info").style.display == "block")
   {
-    document.getElementById("info2").style.display = "none";
+    document.getElementById("info").style.display = "none";
   }
   else
   {
-    document.getElementById("info2").style.display = "block";
+    document.getElementById("info").style.display = "block";
   }
 }
 
