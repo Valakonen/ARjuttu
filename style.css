@@ -38,9 +38,9 @@
   height: 200px;
   min-width: 300px;
   max-width: 400px;
-  top: 50%;
+  top: 20%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);  
 
   overflow: auto;
 }
