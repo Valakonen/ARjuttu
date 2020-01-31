@@ -34,13 +34,13 @@
   color: white;
   display: none;
   margin: 5%;
-  padding: 2%;
-  height: 300px;
-  min-width: 200px;
+  padding: 4%;
+  max-height: 600px;
+  min-width: 250px;
   max-width: 400px;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
+  top: 5%;
+  left: -45%;
+  transform: translate(-50%, -5%);
 
   overflow: auto;
 }
