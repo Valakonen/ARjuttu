@@ -35,5 +35,7 @@
   display: block;
   margin: 5%;
   padding: 5px;
+  height: 60%;
   width: 400px;
+  overflow: auto;
 }
