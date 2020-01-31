@@ -1,0 +1,17 @@
+.btns-warp
+  bottom 20px
+  left 20px
+  position absolute
+  display flex
+  flex-direction row
+  z-index 9000
+
+.btn
+  background blue
+  width 60px
+  height 60px
+  text-align center
+  display inline-block
+
+.help
+  background-color red
