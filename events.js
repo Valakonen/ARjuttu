@@ -9,7 +9,7 @@ function toggleInfo()
   {
     document.getElementById("info").style.display = "block";
   }
-}
+};
 
 // Register events
 AFRAME.registerComponent('registerevents', {
