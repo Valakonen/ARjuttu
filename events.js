@@ -11,6 +11,14 @@ function toggleInfo()
   }
 };
 
+window.addEventListener('camera-init', (data) => {
+    console.log('camera-init', data);
+})
+
+window.addEventListener('camera-error', (error) => {
+    console.log('camera-error', error);
+})
+
 // Register events
 AFRAME.registerComponent('registerevents', {
 		init: function () {
