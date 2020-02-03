@@ -30,3 +30,4 @@ AFRAME.registerComponent('registerevents', {
 				// TODO: Add your own code here to react to the marker being lost.
 			});
 		}
+  });
