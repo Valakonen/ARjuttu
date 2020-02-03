@@ -1,22 +1,4 @@
-/*
-AFRAME.registerComponent('markerhandler', {
-
-    init: function() {
-        const animatedMarker = document.querySelector("#animated-marker");
-        const aEntity = document.querySelector("#animated-model");
-
-        // every click, we make our model grow in size :)
-        animatedMarker.addEventListener('click', function(ev, target){
-            const intersectedElement = ev && ev.detail &&  ev.detail.getIntersection;
-            if (aEntity && intersectedElement === aEntity) {
-                const scale = aEntity.getAttribute('scale');
-                Object.keys(scale).forEach((key) => scale[key] = scale[key] + 1);
-                aEntity.setAttribute('scale', scale);
-            }
-        });
-}});
-*/
-
+// Info screen toggle
 function toggleInfo()
 {
   if (document.getElementById("info").style.display == "block")
@@ -29,4 +11,22 @@ function toggleInfo()
   }
 }
 
-// ev.detail.intersectedEl
+// Register events
+AFRAME.registerComponent('registerevents', {
+		init: function () {
+			var marker = this.el;
+      var sound = document.querySelector('audio1');
+
+			marker.addEventListener('markerFound', function() {
+				var markerId = marker.id;
+				console.log('markerFound', markerId);
+				// TODO: Add your own code here to react to the marker being found.
+        sound.components.sound.playSound();
+			});
+
+			marker.addEventListener('markerLost', function() {
+				var markerId = marker.id;
+				console.log('markerLost', markerId);
+				// TODO: Add your own code here to react to the marker being lost.
+			});
+		}
