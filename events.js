@@ -1,6 +1,8 @@
 // Info screen toggle
 function toggleInfo()
 {
+  var sound = document.querySelector('[sound]');
+
   if (document.getElementById("info").style.display == "block")
   {
     document.getElementById("info").style.display = "none";
@@ -8,9 +10,8 @@ function toggleInfo()
   else
   {
     document.getElementById("info").style.display = "block";
-    var sound = document.querySelector('[sound]');
-    sound.components.sound.playSound();
   }
+  sound.components.sound.playSound();
 };
 
 window.addEventListener('camera-init', (data) => {
