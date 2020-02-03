@@ -15,7 +15,7 @@ function toggleInfo()
 AFRAME.registerComponent('registerevents', {
 		init: function () {
 			var marker = this.el;
-      var sound = document.querySelector('audio1');
+      var sound = document.querySelector('[sound]');
 
 			marker.addEventListener('markerFound', function() {
 				var markerId = marker.id;
