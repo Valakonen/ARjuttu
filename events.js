@@ -31,13 +31,14 @@ AFRAME.registerComponent('registerevents', {
 
 			marker.addEventListener('markerFound', function() {
 				var markerId = marker.id;
+        var markerValue = marker..getAttribute("value");
 				console.log('markerFound', markerId);
 				// TODO: Add your own code here to react to the marker being found.
-        if (marker.value == 0)
+        if (markerValue == 0)
         {
           sound2.components.sound.playSound();
         }
-        else if (marker.value == 1)
+        else if (markerValue == 1)
         {
           sound.components.sound.playSound();
         }
