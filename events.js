@@ -31,7 +31,7 @@ AFRAME.registerComponent('registerevents', {
 
 			marker.addEventListener('markerFound', function() {
 				var markerId = marker.id;
-        var markerValue = marker..getAttribute("value");
+        var markerValue = marker.getAttribute("value");
 				console.log('markerFound', markerId);
 				// TODO: Add your own code here to react to the marker being found.
         if (markerValue == 0)
