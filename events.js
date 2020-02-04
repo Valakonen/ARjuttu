@@ -28,27 +28,30 @@ AFRAME.registerComponent('registerevents', {
 			var marker = this.el;
       var sound = document.querySelector('#audioentity1');
       var sound2 = document.querySelector('#audioentity2');
+      var audio = new Audio('Sound_2.mp3');
+      var audio2 = new Audio('Sound_1.wav');
+
 
 			marker.addEventListener('markerFound', function() {
-				var markerId = marker.id;
-        var markerValue = marker.getAttribute("value");
-				console.log('markerFound', markerId);
+				var markerValue = marker.getAttribute("value");
+
 				// TODO: Add your own code here to react to the marker being found.
         if (markerValue == 0)
         {
-          sound2.components.sound.playSound();
+          audio.play();
+          //sound2.components.sound.playSound();
         }
         else if (markerValue == 1)
         {
-          sound.components.sound.playSound();
+          audio2.play();
+          //sound.components.sound.playSound();
         }
 
 			});
 
 			marker.addEventListener('markerLost', function() {
-				var markerId = marker.id;
-				console.log('markerLost', markerId);
 				// TODO: Add your own code here to react to the marker being lost.
+
 			});
 		}
   });
