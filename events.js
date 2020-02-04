@@ -33,14 +33,21 @@ AFRAME.registerComponent('registerevents', {
 				var markerId = marker.id;
 				console.log('markerFound', markerId);
 				// TODO: Add your own code here to react to the marker being found.
-        sound.components.sound.playSound();
+        if (markerId == 0)
+        {
+          sound2.components.sound.playSound();
+        }
+        else if (markerId == 1)
+        {
+          sound.components.sound.playSound();
+        }
+
 			});
 
 			marker.addEventListener('markerLost', function() {
 				var markerId = marker.id;
 				console.log('markerLost', markerId);
 				// TODO: Add your own code here to react to the marker being lost.
-        sound2.components.sound.playSound();
 			});
 		}
   });
