@@ -1,7 +1,7 @@
 // Info screen toggle
 function toggleInfo()
 {
-  var sound = document.querySelector('[sound]');
+  var audioInfoBtn = new Audio('Sound_2.mp3');
 
   if (document.getElementById("info").style.display == "block")
   {
@@ -11,7 +11,7 @@ function toggleInfo()
   {
     document.getElementById("info").style.display = "block";
   }
-  sound.components.sound.playSound();
+  audioInfoBtn.play();
 };
 
 window.addEventListener('camera-init', (data) => {
@@ -26,11 +26,6 @@ window.addEventListener('camera-error', (error) => {
 AFRAME.registerComponent('registerevents', {
 		init: function () {
 			var marker = this.el;
-      var sound = document.querySelector('#audioentity1');
-      var sound2 = document.querySelector('#audioentity2');
-      var audio = new Audio('Sound_2.mp3');
-      var audio2 = new Audio('Sound_1.wav');
-
 
 			marker.addEventListener('markerFound', function() {
 				var markerValue = marker.getAttribute("value");
@@ -38,11 +33,13 @@ AFRAME.registerComponent('registerevents', {
 				// TODO: Add your own code here to react to the marker being found.
         if (markerValue == 0)
         {
+          var audio = new Audio('Sound_2.mp3');
           audio.play();
           //sound2.components.sound.playSound();
         }
         else if (markerValue == 1)
         {
+          var audio2 = new Audio('Sound_1.wav');
           audio2.play();
           //sound.components.sound.playSound();
         }
