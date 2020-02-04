@@ -35,9 +35,9 @@
   display: none;
   margin: 5%;
   padding: 4%;
-  max-height: 400px;
-  min-width: 250px;
-  max-width: 400px;
+  max-height: 50%;
+  min-width: 20%;
+  max-width: 40%;
   top: 5%;
   left: 45%;
   transform: translate(-50%, -5%);
