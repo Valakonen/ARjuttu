@@ -26,7 +26,8 @@ window.addEventListener('camera-error', (error) => {
 AFRAME.registerComponent('registerevents', {
 		init: function () {
 			var marker = this.el;
-      var sound = document.querySelector('[sound]');
+      var sound = document.querySelector('#audioentity1');
+      var sound2 = document.querySelector('#audioentity2');
 
 			marker.addEventListener('markerFound', function() {
 				var markerId = marker.id;

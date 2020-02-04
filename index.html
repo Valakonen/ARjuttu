@@ -39,14 +39,16 @@
 
               <!-- Audio -->
               <audio id="audio1" src="Sound_2.mp3" preload="auto"></audio>
+              <audio id="audio2" src="Sound_1.wav" preload="auto"></audio>
 
             </a-assets>
 
-            <a-entity sound="src: #audio1" positional: false></a-entity>
+            <a-entity id="audioentity1" sound="src: #audio1" positional: false></a-entity>
+            <a-entity id="audioentity2" sound="src: #audio2" positional: false></a-entity>
 
      <a-entity camera>
 
-            <a-marker smooth='true' size='0.05' type='barcode' value='0'>
+            <a-marker smooth='true' size='0.05' type='barcode' value='0' registerevents>
               <a-entity gltf-model="#logo2"></a-entity>
 
               <!-- <a-entity obj-model="obj: #logo2; mtl: #logo2;" animation="property: rotation; to:0 360 0; dur: 5000; easing: linear; loop: true"></a-entity> -->
