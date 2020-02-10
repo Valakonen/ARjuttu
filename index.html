@@ -27,6 +27,7 @@
 
               <a-asset-item id="windmill" src="Windmill.gltf"></a-asset-item>
               <a-asset-item id="scene" src="Scene.gltf"></a-asset-item>
+              <a-asset-item id="meshText" src="MeshText.gltf"></a-asset-item>
 
               <a-asset-item id="logo2" src="Logo_Separate.gltf"></a-asset-item>
               <a-asset-item id="logom" src="Logo_Separate.bin"></a-asset-item>
@@ -50,13 +51,12 @@
             </a-marker>
 
              <a-marker smooth='true' type='barcode' value='2'>
-              <a-entity gltf-model="#scene" scale="3 3 3" animation-mixer></a-entity>              
+              <a-entity gltf-model="#scene" scale="3 3 3" animation-mixer></a-entity>
             </a-marker>
 
-            <!-- Click test -->
-            <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker" smooth='true' type='barcode' value='3'>
-              <a-box id="animated-model" position='0 0.1 0' material='color: orange;'></a-box>
-              <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 3"></a-text>
+            <!-- Text test -->
+            <a-marker smooth='true' type='barcode' value='3'>
+              <a-entity gltf-model="#meshText" scale="1 1 1" animation-mixer></a-entity>
             </a-marker>
 
            <a-marker smooth='true' type='barcode' value='4'>
