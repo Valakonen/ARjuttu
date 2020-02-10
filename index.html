@@ -36,20 +36,20 @@
 
      <a-entity camera>
 
+            <!-- 3D logo test -->
             <a-marker smooth='true' size='0.05' type='barcode' value='0' registerevents>
               <a-entity gltf-model="#logo2"></a-entity>
-
-              <!-- <a-entity obj-model="obj: #logo2; mtl: #logo2;" animation="property: rotation; to:0 360 0; dur: 5000; easing: linear; loop: true"></a-entity> -->
-              <!-- <a-box position='0 0.1 0' material='color: red;'></a-box> -->
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 0"></a-text>
             </a-marker>
 
+            <!-- Animation test -->
             <a-marker smooth='true' type='barcode' value='1' registerevents>
               <a-entity gltf-model="#windmill" animation-mixer></a-entity>
               <!-- <a-box position='0 0.1 0' material='color: green;'></a-box> -->
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 1"></a-text>
             </a-marker>
 
+            <!-- 3D scene test -->
              <a-marker smooth='true' type='barcode' value='2'>
               <a-entity gltf-model="#scene" scale="3 3 3" animation-mixer></a-entity>
             </a-marker>
@@ -59,6 +59,7 @@
               <a-entity gltf-model="#meshText" scale="1 1 1" rotation="-90 0 0" animation-mixer></a-entity>
             </a-marker>
 
+<!--
            <a-marker smooth='true' type='barcode' value='4'>
               <a-box position='0 0.1 0' material='color: #ff00ff;'></a-box>
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 4"></a-text>
@@ -113,17 +114,8 @@
               <a-box position='0 0.1 0' material='color: #993366;'></a-box>
               <a-text rotation="-90 0 0" position="-0.5 1.05 0" color="black" scale="0.6 0.6 0.6" value="Product 14"></a-text>
             </a-marker>
-
+-->
       </a-entity>
     </a-scene>
   </body>
 </html>
-
-<!-- Testi -->
-
-<!--<a-scene embedded arjs>
-  <a-marker preset="hiro">
-      <a-plane rotation='-90 0 0' position='0 0.1 0' material='color: white;'></a-plane>
-      <a-text rotation="-90 0 0" position="-1 0.15 -1" color="black" scale="1.2 1.2 1.2" value="Hello, World!"></a-text>
-  </a-marker>
--->

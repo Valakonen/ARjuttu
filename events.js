@@ -39,7 +39,7 @@ AFRAME.registerComponent('registerevents', {
         }
         else if (markerValue == 1)
         {
-          var audio2 = new Audio('Sound_1.wav');
+          var audio2 = new Audio('Sound_2.mp3');
           audio2.play();
           //sound.components.sound.playSound();
         }
