@@ -95,12 +95,16 @@ AFRAME.registerComponent('registerevents', {
         {
           var audio = new Audio('Sound_2.mp3');
           audio.play();
+          removeIngredients();
+          addIngredients(1);
           //sound2.components.sound.playSound();
         }
         else if (markerValue == 1)
         {
           var audio2 = new Audio('Sound_2.mp3');
           audio2.play();
+          removeIngredients();
+          addIngredients(2);
           //sound.components.sound.playSound();
         }
 
