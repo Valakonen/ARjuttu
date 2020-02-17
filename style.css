@@ -44,3 +44,20 @@
 
   overflow: auto;
 }
+
+.title
+{
+  background-color: grey;
+  color: white;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.productText
+{
+  border: 1px solid black;
+  margin: 0;
+  padding: 2px;
+  display: none;
+}
