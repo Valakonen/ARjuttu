@@ -70,10 +70,6 @@ function addIngredients(productNumber)
   var ingredientText = document.createTextNode(b);
   text.appendChild(ingredientText);
   element.appendChild(text);
-
-
-
-
 };
 
 
