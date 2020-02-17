@@ -1,5 +1,6 @@
+// Product info: Press title to show text
 $(document).ready(function(){
-  $(".title").click(function(a){
+  $(".materialTitle").click(function(a){
     $(this).next().slideToggle(200);
   });
 });

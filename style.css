@@ -45,7 +45,7 @@
   overflow: auto;
 }
 
-.title
+.materialTitle
 {
   background-color: grey;
   color: white;
@@ -54,7 +54,7 @@
   border: 1px solid black;
 }
 
-.productText
+.materialText
 {
   border: 1px solid black;
   margin: 0;
