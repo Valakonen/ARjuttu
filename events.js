@@ -21,6 +21,22 @@ function toggleInfo()
   audioInfoBtn.play();
 };
 
+function removeIngedients()
+{
+  var myNodelist = document.querySelectorAll(".ingredientTitle");
+  var myNodelist2 = document.querySelectorAll(".ingredientText");
+  var i;
+  for (i = 0; i < myNodelist.length; i++)
+  {
+    myNodelist[i].remove();
+  }
+
+  for (i = 0; i < myNodelist2.length; i++)
+  {
+    myNodelist2[i].remove();
+  }
+}
+
 window.addEventListener('camera-init', (data) => {
     console.log('camera-init', data);
 })
