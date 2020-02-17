@@ -72,7 +72,10 @@ function addIngredients(productNumber)
   element.appendChild(text);
 };
 
+function changeProductInfo(markerNumber)
+{
 
+}
 
 window.addEventListener('camera-init', (data) => {
     console.log('camera-init', data);
@@ -95,6 +98,7 @@ AFRAME.registerComponent('registerevents', {
         {
           var audio = new Audio('Sound_2.mp3');
           audio.play();
+
           removeIngredients();
           addIngredients(1);
           document.getElementById("productName").innerHTML = "Tuote 1";
@@ -104,6 +108,7 @@ AFRAME.registerComponent('registerevents', {
         {
           var audio2 = new Audio('Sound_2.mp3');
           audio2.play();
+
           removeIngredients();
           addIngredients(2);
           document.getElementById("productName").innerHTML = "Tuote 2";
