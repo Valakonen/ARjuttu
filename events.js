@@ -1,6 +1,6 @@
 // Product info: Press title to show text
 $(document).ready(function(){
-  $(".materialTitle").click(function(a){
+  $(".ingredientTitle").click(function(a){
     $(this).next().slideToggle(200);
   });
 });
