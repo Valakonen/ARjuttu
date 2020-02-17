@@ -97,6 +97,7 @@ AFRAME.registerComponent('registerevents', {
           audio.play();
           removeIngredients();
           addIngredients(1);
+          document.getElementById("productName").innerHTML = "Tuote 1";
           //sound2.components.sound.playSound();
         }
         else if (markerValue == 1)
@@ -105,6 +106,7 @@ AFRAME.registerComponent('registerevents', {
           audio2.play();
           removeIngredients();
           addIngredients(2);
+          document.getElementById("productName").innerHTML = "Tuote 2";
           //sound.components.sound.playSound();
         }
 
