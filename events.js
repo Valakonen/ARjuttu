@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  $(".title").click(function(a){
+    $(this).next().slideToggle(200);
+  });
+});
+
 // Info screen toggle
 function toggleInfo()
 {
@@ -21,12 +27,6 @@ window.addEventListener('camera-init', (data) => {
 window.addEventListener('camera-error', (error) => {
     console.log('camera-error', error);
 })
-
-$(document).ready(function(){
-  $(".title").click(function(a){
-    $(this).next().slideToggle(200);
-  });
-});
 
 // Register events
 AFRAME.registerComponent('registerevents', {
