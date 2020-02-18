@@ -17,6 +17,11 @@
   padding: 20px;
   font-size: 16px;
   border-radius: 4px;
+  
+   transition all .3s
+  
+    &:active
+    transform scale(.98)
 }
 
 .help
