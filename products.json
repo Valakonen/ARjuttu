@@ -1,0 +1,29 @@
+[{
+  "name": "Kaurilan sauna",
+  "ingredients":
+  [
+    {
+    "name": "SITRUUNARUOHO",
+    "info": "Sitruunaruoho tai sitruunaheinä on arvostettu ja monipuolinen kasvi, joka kasvaa tropiikissa kahden metrin korkuiseksi. Sitruunaruoho kuuluu cymbog on - sukuun, jossa on yli 50 eri lajoa . Suomessa ei juurikaan tehdä eroja eri lajien välillä ja yleinen nimi on sitruunaruoho. C ymbogon citratus on se yleinen syötävä sitruunaruoho , kun taas Cymbogon nardus (jäkkisitrusheinä tai sitronellaheinä) on suosittua kosmetiikassa ja jopa hyönteisten k arkottajana. Cymbogon narduksella on purppuranväriset varre t. Siitä saadaan eteeristä öljyö , jota käytetään saippuoissa, kynttilöissä ja aromaterapiassa. Tärkeimmät kemialliset aineet ovat sitraali eli lemonaali ja geranioli, jotka ovat antiseptisiä. Sit raali antaa sitrusmaisen tuoksun ja sama aine tta on myös sitruunamelissassa. Sitraalia ja geraniolia käytetään paljon parfyymeissa. Eteerinen öljy saadaan tuoreista varsis ta ja lehdistä höyrytislaamalla."
+    },
+    {
+    "name": "APPELSIININKUKKA",
+    "info": "APPELSIININKUKKA Hapanappelsiini eli pomeranssi (Citrus aurantium) on todellinen ihmepuu, josta saadaan monia tuoksuja ja marmelaadia, mutta ei mehua, koska se on nimensä mukaan liian hapanta. Hapanappelsiinin suurin lahja tuoksujen maailmalle ovat siitä saatavat eteeriset öljyt. Kun appelsiinipuu k ukkii, valkoisten kukkien tuoksu on huumaava. Puuhun ilmestyy kukkia, joissa on viisi terälehteä. Kukat tuottavat makoisiaa nektaria, joka on mehiläisille vastustamatonta. Kun kukkiminen alkaa, kukkien sisältämä eteerinen öljy lisääntyy. Appelsiinikukasta kerätään öljy liuottamalla ja uuttamalla, jonka jälkeen alkoholilla sen öljy suodatetaan absoluutuksi. Höyrytislaamalla kukkia saadaan parfyymeissä paljon käytettyä ainesosaa. Se on neroli. Paras neroliöljy tulee monien mielestä Tunisiasta, jossa appelsii ninkukkia korjataan huhti - toukokuussa. Neroli sisältää paljon linaloolia, jota löytyy myös laventelista ja mintusta."
+    }
+  ]
+},
+{
+  "name": "Saaren taika",
+  "ingredients":
+  [
+    {
+    "name": "TYRNI",
+    "info": "Tyrni ( Hippophae rhamnoides ) on kotoisin Himalajan vuoristosta. Sen kuoren sisältämä hippofeiini - serotoniini torjuu tulehduksia ja vaikuttaa kudosten kasvuun. M arjojen C - vitamiinipitoisuus on suurimpia, mitä kasveissa on tavattu. Tyrniöljyä käytetään kosteusvoiteena, koska siinä on paljon antioksidantteja. Öljyssä on rasvahappoja, karotenoideja ja vitamiinit., joka tekee siitä hyvän inhonvoitotuotteen."
+    },
+    {
+    "name": "KAMOMILLA",
+    "info": "Kamomillasaunio ( Matricaria chamomilla ) on kotoisin etelä - ja itä - euroopassa. Kuivattuna yrttinä kamomilla on erinomainen keino uudistaa ihoa ja tehdä siitä pehmeä ja tasainen. Kukat sisältävät sinistä eteeristä öljyä. Öljy sisältää bisabololia, jota on monissa parfyymeissa. Bisabo loli myös kosteutt aa ja desinfioi ihoa . Bisabolol has a weak sweet floral aroma and is used in various fragrances. It has also been used for hundreds of years in cosmetics because of its perceived skin healing properties. Bisabolol is known to have anti - ir ritant, anti - inflammatory, and anti - microbial properties."
+    }
+  ]
+}
+]
