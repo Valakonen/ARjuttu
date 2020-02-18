@@ -10,8 +10,6 @@ $(document).on("click",".ingredientTitle",function(){
 
 // Get products json file
 let products;
-let infoActivated = false;
-let lastDetectedMarker;
 
 fetch("./products.json")
   .then(function(resp)
@@ -25,6 +23,9 @@ fetch("./products.json")
 })
 
 // Info screen toggle
+let infoActivated = false;
+let lastDetectedMarker;
+
 function toggleInfo()
 {
   var audioInfoBtn = new Audio('Sound_2.mp3');
@@ -113,6 +114,8 @@ AFRAME.registerComponent('registerevents', {
 
 			marker.addEventListener('markerFound', function() {
 				var markerValue = marker.getAttribute("value");
+
+        // update variable so info window can load right product
         lastDetectedMarker = markerValue;
 
 				// TODO: Add your own code here to react to the marker being found.
