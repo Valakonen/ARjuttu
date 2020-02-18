@@ -68,7 +68,7 @@ function removeIngredients()
 // add ingredients
 function addIngredients(name, info)
 {
-  var title = document.createElement("h2");
+  var title = document.createElement("h3");
   title.classList.add('ingredientTitle');
   var titleText = document.createTextNode(name);
   title.appendChild(titleText);
