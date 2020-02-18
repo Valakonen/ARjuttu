@@ -10,6 +10,8 @@ $(document).on("click",".ingredientTitle",function(){
 
 // Get products json file
 let products;
+let infoActivated = false;
+let lastDetectedMarker;
 
 fetch("./products.json")
   .then(function(resp)
@@ -36,6 +38,19 @@ function toggleInfo()
     document.getElementById("info").style.display = "block";
   }
   audioInfoBtn.play();
+
+  if(infoActivated == false)
+  {
+    if(lastDetectedMarker != null)
+    {
+      infoActivated == true;
+      changeProductInfo(lastDetectedMarker);
+    }
+  }
+  else
+  {
+    infoActivated == false;
+  }
 };
 
 // change product info by marker number
@@ -98,19 +113,20 @@ AFRAME.registerComponent('registerevents', {
 
 			marker.addEventListener('markerFound', function() {
 				var markerValue = marker.getAttribute("value");
+        lastDetectedMarker = markerValue;
 
 				// TODO: Add your own code here to react to the marker being found.
         if (markerValue == 0)
         {
           var audio = new Audio('Sound_2.mp3');
           audio.play();
-          changeProductInfo(markerValue);
+          //changeProductInfo(markerValue);
         }
         else if (markerValue == 1)
         {
           var audio2 = new Audio('Sound_2.mp3');
           audio2.play();
-          changeProductInfo(markerValue);
+          //changeProductInfo(markerValue);
         }
 
 			});
