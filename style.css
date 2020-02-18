@@ -18,7 +18,7 @@
   font-size: 16px;
   border-radius: 4px;
   &:active
-    transform scale(.98)
+    transform scale(.70)
 }
 
 .help
