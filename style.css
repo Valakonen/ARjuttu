@@ -10,7 +10,7 @@
 
 .btn
 {
-  user-select: none;
+  
   background: blue;
   text-align: center;
   display: inline-block;
@@ -21,7 +21,7 @@
    transition all .3s
   
     &:active
-    transform scale(.98)
+    transform scale(.70)
 }
 
 .help
