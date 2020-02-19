@@ -16,7 +16,7 @@
   display: inline-block;
   padding: 20px;
   font-size: 16px;
-  
+
   background-color: #4CAF50;
   border: none;
   border-radius: 15px;
@@ -27,7 +27,7 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}  
+}
 
 .help
 {
@@ -52,6 +52,15 @@
   border-radius: 8px;
 
   overflow: auto;
+}
+
+#productDescription
+{
+  background-color: beige;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+
 }
 
 .ingredientTitle
