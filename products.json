@@ -1,5 +1,6 @@
 [{
   "name": "Kaurilan sauna",
+  "productDescription": "Ekan tuotteen infoa",
   "ingredients":
   [
     {
@@ -14,6 +15,7 @@
 },
 {
   "name": "Saaren taika",
+  "productDescription": "Tokan tuotteen infoa",
   "ingredients":
   [
     {
