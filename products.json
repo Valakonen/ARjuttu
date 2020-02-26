@@ -110,5 +110,68 @@
     "info": "Pakurikääpää (Inonotus obliquus) esiintyy yleisesti koko Suomessa hies-ja rauduskoivujen rungoilla. Se on lahottajasieni ja se näyy koivun rungossa rihmastopahkan aiheuttamina epämuodostumima eli pakureina. Se sisältää mm. erilaisia beetaglukaaneja, jotka auttavat tasoittamaan verensokeria sekä alentamaan veren kolesteroliarvoja. Beetaglykaani on polysakkaridi. Pakurilla on antioksidanttisia ja tulehdusta hoitavia ominaisuuksia, ja sen ravinnepitoisuus on poikkeuksellisen korkea. Pakurikäävän käyttö on sallittu vain rouheena tai vesiuutteena ravintolisäasetuksen määritelmän mukaisissa ravintolisissä. Tämän lisäksi pakurikääpää voidaan myydä ja markkinoida ainakin Suomessa teetyyppisenä tuotteena (yrttiteenä). Kosmetiikassa se hillitsee ja elvyttää ja vaalentaa tummia pigmenttihäiriöitä."
     }
   ]
+},
+{
+  "name": "Ole Hyvä",
+  "productDescription": "Neljännen tuotteen infoa",
+  "ingredients":
+  [
+    {
+    "name": "SITRUUNA",
+    "info": "Sitruunan (Citrus lemon) alkuperä on tuntematon, mutta niitä uskotaan ensimmäisenä kasvaneen Assamissa Intian ja Kiinan rajaseudulle. Genettisesti sen uskotaan olevan hapanappelsiinin ja sukaattisitruunan risteymä. Sitruunoita käytettiin Italiassa vasta ensimmäisellä vuosisadalla. Sitruunan raikas eteerinen öljy saadaan höyrytislaamalla. Sitruunan eteerisessä öljyssä on paljon limoneeniä, jota käytetään pesuaineissa."
+    },
+    {
+    "name": "EUKALYPTUS",
+    "info": "Australiasta kotoisin olevan eukalyptuksen (Eucalyptus globulus) lehdistä ja nuorista oksista saadaan höyrytislaamalla aromaattista ja antiseptistä öljyä, jota on käytetty kuumeen, malarian ja monien vaivojen hoitoon.Hyväntuoksuista öljyä käytetään myös kosmetiikassa, suuvesissä ja parfyymeissä. Se sisältää 90% eukalyptolia eli sineolia. Sitä käytetään myös hyönteisten karkottamiseen. Sineolia on myös laakerinlehdissä, kardemummassa, basilikassa ja rosmariinissa."
+    },
+    {
+    "name": "KOIVU",
+    "info": "Rauduskoivun (Betula pubensces) ja hieskoivun (Betulapendula) lehdet ovat hyvin C-vitamiinipitoisia ja niissä on paljon flavonoideja. Kosmetiikassa koivua on perinteisesti käytetty hiustenhoidossa. Koivunlehdet vahvistavat päänahkaa ja tekevät hiukset pehmeiksi ja kiiltäviksi. Koivunlehdistä voi myöstehdä hyväntuoksuisen kylvyn. Koivun lehtien saponiinit ovat glykosideja. Kaikille saponiineille on tyypillistä vesiliuosten vaahtoaminen tavalla, joka muistuttaasaippuan vaahtoamista. Perinteisestikoivunmahlaa on hyödynnetty hauteina tai kasvovesinä ihonhoidossa. Koivun eteerisessä öljyssäon salisyylihappia ja metyylisalisylaattia, jotka suojelevat ihoa infektioilta. Koivun kuoresta uuttamalla saadun eteerisen öjyn betuliinin on todettu hillitsevän tulehduksia ja nopeuttavan haavojen paranemista. Sitä on koivun kuoressa jopa 40%. Betuliiniakäytetään kosmetiikan raaka-aineena, koska se stimuloi myös terveiden ihosolujen tuotantoa. Betuliinistä tehdään emulsiovoiteita lääkekäyttöön."
+    },
+    {
+    "name": "MESIANGERVO",
+    "info": "Kosteissa lehdoissa viihtyvällä mesiangervolla (Filipendula ulmaria)on kermanvalkoiset kukat, joissa on vahva ja makea tuoksu. Mesiangervo tunnetaan perinteisenä hiusten luonnollista kasvua edistävänä rohdoksena. Aidot eteeriset öljyt tuoksuvat shampoossa miellyttävästi. Mesiangervon aromikkaita kukkia on käytettyjuomien mausteena.Mesiangervon kukissa on spiraehappoa, josta aspiriini on saanut nimensä. Sitä onkin kutsuttu luonnon aspiriiniksi."
+    },
+    {
+    "name": "KANERVA",
+    "info": "Kanerva(Calluna vulgaris)on puuvartinen ikivihreä varpu, joka kasvaa 10–50 senttimetriä korkeaksi.Se kasvaa koko Euroopassa pohjoisia alueita lukuunottamatta. Sen lehdet sisältävät fenoliset yhdisteitä kuten klorogeenihappoa. Myös kahvi sisältää paljon klorogeenihappoa. Kanervasta saatu uute hoitaa kuivaa hiuspohjaa. Eteerinen öljy antaa hyväntuoksun."
+    },
+    {
+    "name": "HILLA",
+    "info": "Hilla tai lakka (Rubus chamaemorus) kuuluu vatukoiden sukuun ja sisältää vadelman tavoin paljon ellagitanniineja. Ne estävät haitallisten suolistobakteerien, muun muassa salmonellan, stafylokokki-ja kampylobakteerien kasvua. SenC-vitamiinipitoisuus on 3–4 kertaa suurempi kuin appelsiinissa."
+    },
+    {
+    "name": "NOKKONEN",
+    "info": "Nokkonen (Urtica dioica) on ollut pitkään Suomessa läytössä rohdoksena. Se on mahdollisesti yksi vanhimpia ihmisen käyttämiä kuitukasveja. Nokkosessa on C-vitamiinia pinaattiin verrattuna jopa nelinkertainen määrä. Nokkonen sisältää paljon karoteeneja. Rautapitoinen nokkonen tervehdyttää luustoa, kynsiä ja hiuksia."
+    },
+    {
+    "name": "RAPARPERI",
+    "info": "Raparperi (Rheum officinale) on kotoisin Kiinasta ja Siperian eteläosista. Sen juuria on käytetty vuosisatoja lääkkeenä. Varsista saadaan uutetta, joka on hyvää iholle. Raparperisisältää paljon antioksidantteja, kuten stilbeenejä, flavonoideja ja antosyaaneja.Myös kuusen kuoressa on paljon stilbeenejä, jotka estävät puuta lahoamasta."
+    },
+    {
+    "name": "PIPARMINTTU",
+    "info": "Mintut (Mentha) ovat luonnonvaraisia ja monivuotisia yrttejä. Niitä on maailmassa arviolta 1200 erilaista minttua.Yksi tärkeimmistä kosmetiikassa on piparminttu (Mentha x piperita). Piparminttuöljyä saadaan sen lehdistä. Se antaa viileän raikkaan tuoksun.Tärkeimmät ainesosaset ovat mentoli ja mentoni. Mentolia käytetään hygieniatuotteissa, parfyymeissa, voiteissa ja yskänlääkkeissä. Mentoli aiheuttaa solureseptoreissa aistimuksen viileydestä, samalla tavoin kuin chili antaa aistimuksen polttavuudesta."
+    },
+    {
+    "name": "EUKALYPTUS",
+    "info": "Australiasta kotoisin olevan eukalyptuksen (Eucalyptus globulus) lehdistä ja nuorista oksista saadaan höyrytislaamalla aromaattista ja antiseptistä öljyä, jota on käytetty kuumeen, malarian ja monien vaivojen hoitoon.Hyväntuoksuista öljyä käytetään myös kosmetiikassa, suuvesissä ja parfyymeissä. Se sisältää 90% eukalyptolia eli sineolia. Sitä käytetään myös hyönteisten karkottamiseen. Sineolia on myös laakerinlehdissä, kardemummassa, basilikassa ja rosmariinissa."
+    },
+    {
+    "name": "MUSTAHERUKKA",
+    "info": "Mustaherukkaan (Ribes nigrum) kuuluu 150 eri lajia, joita tavataan Euroopassa ja Pohjois-Amerikassa. Se on kotoisin pohjoisesta Euroopasta ja Aasiasta. Sitä viljeltiin jo 1000-luvulla Venäjän luostareissa. Mustaherukassaolevat fenoliset yhdisteet pystyvät estämään useiden eri bakteerien sitoutumisen elimistöön. Mustikan, mustaherukan, variksenmarjan ja puolukan polyfenolit (antosyaanit, proantosyanidit ja flavonolit) torjuvat suun bakteereja ja estävät karieksen ja plakin muodostumista hampaisiin. Mustaherukan siemenistä puristettu öljy sopii kuiville hiuksille ja iholle. Se sisältää gammalinoleenihappoa, joka on omega-6 rasvahappo."
+    },
+    {
+    "name": "RUUSU",
+    "info": "Ruusun uskotaan olevan kotoisin Iranista. Sen eri lajeja yli 10 000. Yleisimpiä on Rosa Centifloaja damaskiruusu, Rosa damascena. Damaskiruusu kasvaa pensaana yli kahden metrin korkuiseksi. Ruusua käytetään mausteena ruokiin Marokosta Keski-Aasiaan. Ruusu on olennainen ja suosituin ainesosa parfyymeissa. Koska ruususta saadaan vähän eteeristä öljyä eikä sille löydy halvempia korvaavia aineita, ruusun eteerinen öljy on kalleimpia eteerisiä öljyjö maailmassa. Eteerinen öljy saadaan tuoreiden terälehtien höyrytislauksesta. Varsinainen ruusuvesi on tislauksen sivutuote.Ruusuvedessä öljyä on 10-50%. Ruusu sisältää erityisesti sitronellolia, geraniolia ja nerolia."
+    },
+    {
+    "name": "KANELI",
+    "info": "Kanelia saadaan Cinnamomum-puulajien kaarnasta. Puun kaarnasta kuoritaan pitkiä suikaleita, jotka kuivatetaan. Kuivatut suikaleet leikataan lopuksi tangoiksi. Leivonnaisista tuttua kanelia käytetään erityisesti Aasiassa monipuolisesti, ei pelkästään ruoanlaitossa vaan kosmetiikassa ja hajusteena.Kanelia on pääasiassa kahta lajia. Niin sanottu aito kaneli (Cinnammom verum) on kotoisin Sri Lankasta ja kassiakaneli (Cinnamomun cassia) Kiinasta. Kanelin aromi tulee eteerisestä öljytstä, jota saadaan lehdistä, oksista, marjoista ja kaarnoista. Öljy sisältää kanelialdehydiä ja eugenolia. Antiseptistä kanelialdehydiä käytetään myös moskiittoejn karkoitukseen."
+    },
+    {
+    "name": "TERVA",
+    "info": "Tervaa saadaan puusta, erityisesti männystä, kuivatislaamalla eli puuainesta hajotetaan ilman happea lämmön avulla, jolloin syntyy öljyä ja haihtuvia aineita.Mänty on pihkapitoisin jasisältää eniten hartsia verrattuna muihin puulajeihin. Tervaa käytettiin aikoinaan mm. antiseptisena aineena lääkkeeksi. Terva sopii hyvin iholle ja sillä on hoidettu ihottumia.Kuusen ja männyn pihka ovat antibakteerisia ja desinfioivia.Satoja eri ainesosia sisältävä pihka suojelee puuta sairauksilta. Pihka hillitsee bakteerien kasvua ja edistää solujen uusiutumista. Pihka on enimmäkseen terpeeneistä koostuvien eteeristen öljyjen ja hartsien seos. Terpeenit (lat. terebinthina = pihka, hartsi) ovat laaja hiilivetyjen aineryhmä.Hyväntuoksuisia terpeenejäkäytetään kosmetiikassaja hajusteina."
+    }
+  ]
 }
 ]
