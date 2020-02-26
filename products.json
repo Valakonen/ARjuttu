@@ -75,5 +75,40 @@
     "info": "Laventeli (Lavandula angustifolia) on voimakastuoksuinen yrtti, jota on käytetty paljon etenkin hajusteena. Roomalaisilla oli tapana lisätä laventelia kylpyveteensä tuoksuksi. Siitä se on saanut nimensäkin. Latinan lavaretarkoittaa pesemistä. Roomalaiset käyttivätlaventelia myös tuoksuttaakseenhiukset ja vaatteet.Laventeli on kotoisin Intiasta, mutta se viihttyy kaikkialla aurinkoisilla ja lämpimillä alueilla.Etelä-Ranska on kuuluisa violeteista laventelipelloistaan ja Ranska onkin laventelin suurin tuottajamaa.Laventelin öljy sisältää paljon linalyyliasetaattia (30-55%), ja linaloolia (20-35%). Linalyyliasetaattia on paljon monissa kukissa ja erityisesti maustekasveissa, kuten kardemummassa ja muskatellisalviassa. Sitä on sitruunassa ja se on myös yksi bergamottiöljyn merkittävä ainesosa. Öljy saadaan tislaamalla laventelin kukkia."
     }
   ]
+},
+{
+  "name": "Saunan7salaisuutta",
+  "productDescription": "Kolmannen tuotteen infoa",
+  "ingredients":
+  [
+    {
+    "name": "RUUSU",
+    "info": "Ruusun uskotaan olevan kotoisin Iranista. Sen eri lajeja yli 10 000. Yleisimpiä on Rosa Centifloaja damaskiruusu, Rosa damascena. Damaskiruusu kasvaa pensaana yli kahden metrin korkuiseksi. Ruusua käytetään mausteena ruokiin Marokosta Keski-Aasiaan. Ruusu on olennainen ja suosituin ainesosa parfyymeissa. Koska ruususta saadaan vähän eteeristä öljyä eikä sille löydy halvempia korvaavia aineita, ruusun eteerinen öljy on kalleimpia eteerisiä öljyjö maailmassa. Eteerinen öljy saadaan tuoreiden terälehtien höyrytislauksesta. Varsinainen ruusuvesi on tislauksen sivutuote.Ruusuvedessä öljyä on 10-50%. Ruusu sisältää erityisesti sitronellolia, geraniolia ja nerolia."
+    },
+    {
+    "name": "TERVA",
+    "info": "Tervaa saadaan puusta, erityisesti männystä, kuivatislaamalla eli puuainesta hajotetaan ilman happea lämmön avulla, jolloin syntyy öljyä ja haihtuvia aineita.Mänty on pihkapitoisin jasisältää eniten hartsia verrattuna muihin puulajeihin. Tervaa käytettiin aikoinaan mm. antiseptisena aineena lääkkeeksi. Terva sopii hyvin iholle ja sillä on hoidettu ihottumia.Kuusen ja männyn pihka ovat antibakteerisia ja desinfioivia.Satoja eri ainesosia sisältävä pihka suojelee puuta sairauksilta. Pihka hillitsee bakteerien kasvua ja edistää solujen uusiutumista. Pihka on enimmäkseen terpeeneistä koostuvien eteeristen öljyjen ja hartsien seos. Terpeenit (lat. terebinthina = pihka, hartsi) ovat laaja hiilivetyjen aineryhmä.Hyväntuoksuisia terpeenejäkäytetään kosmetiikassaja hajusteina."
+    },
+    {
+    "name": "KATAJA",
+    "info": "Kataja (Juniperus communis) on sypressikasveihin kuuluva havupuu, joka on yleinen pohjoisella pallonpuoliskolla. Vaikka kataja on pieni pensas, se voi kasvaa jopa 10 metriä korkeaksi.Sukuun kuuluu 50 eri lajia. Katajan pehmeät ja pienet kävyt muistuttavat marjoja, ja niitä onkin kutsuttu katajanmarjoiksi.Kun katajanmarjoja höyrytislataan, saadaan kellertävää eteeristä öljyä. Öljy sisältää pineeniä, jota on myös männyssä sekä myrseeniä, jota on laakeripuussa, verbenassa, timjamissa ja kardemummassa. Sekä pineeniä että myrseeniä käytetään parfyymeissa. Molemmat myös karkottavat hyönteisiä."
+    },
+    {
+    "name": "KOIVU",
+    "info": "Rauduskoivun (Betula pubensces) ja hieskoivun (Betulapendula) lehdet ovat hyvin C-vitamiinipitoisia ja niissä on paljon flavonoideja. Kosmetiikassa koivua on perinteisesti käytetty hiustenhoidossa. Koivunlehdet vahvistavat päänahkaa ja tekevät hiukset pehmeiksi ja kiiltäviksi. Koivunlehdistä voi myöstehdä hyväntuoksuisen kylvyn. Koivun lehtien saponiinit ovat glykosideja. Kaikille saponiineille on tyypillistä vesiliuosten vaahtoaminen tavalla, joka muistuttaasaippuan vaahtoamista. Perinteisestikoivunmahlaa on hyödynnetty hauteina tai kasvovesinä ihonhoidossa. Koivun eteerisessä öljyssäon salisyylihappia ja metyylisalisylaattia, jotka suojelevat ihoa infektioilta. Koivun kuoresta uuttamalla saadun eteerisen öjyn betuliinin on todettu hillitsevän tulehduksia ja nopeuttavan haavojen paranemista. Sitä on koivun kuoressa jopa 40%. Betuliiniakäytetään kosmetiikan raaka-aineena, koska se stimuloi myös terveiden ihosolujen tuotantoa. Betuliinistä tehdään emulsiovoiteita lääkekäyttöön."
+    },
+    {
+    "name": "MÄNTY",
+    "info": "Männyn (Pinus sylvestris) pihkasta voidaan valmistaa mm. tervaa, pikiöljyä ja tärpättiä. Havuista saatavaa mäntyöljyä käytetään mm. hierontaan ja kylpyihinsekä C-vitamiinipitoisia, nuoria versoja, eli kerkkiä erilaisiin rohdoksiin ja lääkkeisiin. Männyn eteerinen öljy tislataan sen neulasista. Se on antiseptistä ja puhdistaa ilmaa bakteereista. Mäntyä ön käytetty hengitysteiden ongelmien kuten astman helpottamiseen. Siksi Suomessa keuhkoparantolat rakennettiin mäntymetsien keskelle. Mänty sisältää mm. pineeniä jakareenia, joita käytetään parfyymiteollisuudessa. Pineeni karkottaa myös hyönteisiä."
+    },
+    {
+    "name": "KUUSI",
+    "info": "Kuusi (Picea abies) onmäntykasvien (Pinaceae) heimoon kuuluva havupuu. Nuoria vuosikasvaimia eli kerkkiä on käytetty erittäin C-vitamiinipitoisen kuusenkerkkäsiirapin valmistukseen. Niistä valmistetaan myös erilaisia juomia ja niitä voidaan käyttää mausteena. Kuusen pihkasta on tehty voiteita ihovaurioiden hoitamiseen. Luonnon pihka on laajakirjoisesti ja voimakkaasti antimikrobinen."
+    },
+    {
+    "name": "PAKURI",
+    "info": "Pakurikääpää (Inonotus obliquus) esiintyy yleisesti koko Suomessa hies-ja rauduskoivujen rungoilla. Se on lahottajasieni ja se näyy koivun rungossa rihmastopahkan aiheuttamina epämuodostumima eli pakureina. Se sisältää mm. erilaisia beetaglukaaneja, jotka auttavat tasoittamaan verensokeria sekä alentamaan veren kolesteroliarvoja. Beetaglykaani on polysakkaridi. Pakurilla on antioksidanttisia ja tulehdusta hoitavia ominaisuuksia, ja sen ravinnepitoisuus on poikkeuksellisen korkea. Pakurikäävän käyttö on sallittu vain rouheena tai vesiuutteena ravintolisäasetuksen määritelmän mukaisissa ravintolisissä. Tämän lisäksi pakurikääpää voidaan myydä ja markkinoida ainakin Suomessa teetyyppisenä tuotteena (yrttiteenä). Kosmetiikassa se hillitsee ja elvyttää ja vaalentaa tummia pigmenttihäiriöitä."
+    }
+  ]
 }
 ]
