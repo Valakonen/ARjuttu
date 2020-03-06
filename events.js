@@ -124,6 +124,10 @@ AFRAME.registerComponent('registerevents', {
         {
           var audio = new Audio('Sound_2.mp3');
           audio.play();
+
+          //play animations
+
+
           //changeProductInfo(markerValue);
         }
         else if (markerValue == 1)
@@ -131,6 +135,16 @@ AFRAME.registerComponent('registerevents', {
           var audio2 = new Audio('Sound_2.mp3');
           audio2.play();
           //changeProductInfo(markerValue);
+        }
+        else if (markerValue == 3)
+        {
+
+          var children = marker.children;
+          for (var i = 0; i < children.length; i++)
+            {
+              children[i].setAttribute('animation-mixer', {clip: '*', loop: 'once'});
+
+            }
         }
 
 			});
