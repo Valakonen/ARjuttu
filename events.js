@@ -138,6 +138,17 @@ AFRAME.registerComponent('registerevents', {
         }
         else if (markerValue == 3)
         {
+          // funtio tästä
+          var children = marker.children;
+          for (var i = 0; i < children.length; i++)
+            {
+              children[i].setAttribute('animation-mixer', {clip: '*'});
+
+            }
+        }
+
+        else if (markerValue == 4)
+        {
 
           var children = marker.children;
           for (var i = 0; i < children.length; i++)
