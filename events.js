@@ -148,6 +148,9 @@ AFRAME.registerComponent('registerevents', {
         }
 
         else if (markerValue == 4)
+
+        changeProductInfo(2);
+
         {
 
           var children = marker.children;
