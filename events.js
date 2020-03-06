@@ -142,7 +142,7 @@ AFRAME.registerComponent('registerevents', {
           var children = marker.children;
           for (var i = 0; i < children.length; i++)
             {
-              children[i].setAttribute('animation-mixer', {clip: '*', loop: 'once'});
+              children[i].setAttribute('animation-mixer', {clip: '*'});
 
             }
         }
