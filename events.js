@@ -150,7 +150,7 @@ AFRAME.registerComponent('registerevents', {
         else if (markerValue == 4)
 
         //debug tuote vaihto testiä
-        lastDetectedMarker = 2;        
+        lastDetectedMarker = 0;        
 
         {
 
