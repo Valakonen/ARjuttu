@@ -14,7 +14,7 @@
   <body style='margin : 0px; overflow: hidden;'>
 
     <div class="btns-wrap">
-      <div class="btn help" onclick="toggleInfo()">?</div>
+      <div class="btn help" onclick="toggleInfo()">Raaka-aineet</div>
       <!--Testi nappuloita
         <div class="btn help" onclick="removeIngredients()">Remove</div>
         <div class="btn help" onclick="changeProductInfo(0)">Tuote1</div>
@@ -47,6 +47,8 @@
               <a-asset-item id="ruusu" src="3d\ruusu.gltf"></a-asset-item>
               <a-asset-item id="kamomilla" src="3d\kamomilla.gltf"></a-asset-item>
               <a-asset-item id="mustaherukka" src="3d\mustaherukka.gltf"></a-asset-item>
+
+              <a-asset-item id="KaurilanSauna" src="3d\KaurilanSaunaCylinder.gltf"></a-asset-item>
 
 
 
@@ -88,11 +90,10 @@
             </a-marker>
 
            <a-marker smooth='true' type='barcode' value='4' registerevents>
+             <a-entity gltf-model="#KaurilanSauna" scale="1 1 1"></a-entity>
              <a-entity gltf-model="#appelsiininkukka" scale="0.5 0.5 0.5"></a-entity>
              <a-entity gltf-model="#korianteri" position="1 0 0"></a-entity>
-             <a-entity gltf-model="#kamomilla" position="0 0 -1" scale="0.5 0.5 0.5"></a-entity>
-             <a-entity gltf-model="#ruusu" position="-1 0 0" scale="0.5 0.5 0.5"></a-entity>
-             <a-entity gltf-model="#mustaherukka" position="1 0 -1" scale="0.5 0.5 0.5"></a-entity>
+             <a-entity gltf-model="#mustaherukka" position="-1 0 0" scale="0.5 0.5 0.5"></a-entity>
            </a-marker>
 
 <!--
