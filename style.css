@@ -33,14 +33,17 @@
 {
     user-select: none;
     background-color: #E7830B;
+    color: white;
+    font-family: Arial;
 }
 
 #info
 {
   z-index: 9900;
-  background-color: #333333;
+  background-color: #096186;
   position: absolute;
   color: white;
+  font-family: Arial;
   display: none;
   margin: 5%;
   padding: 4%;
@@ -57,7 +60,7 @@
 
 #productDescription
 {
-  background-color: beige;
+  background-color: #5cc7f5;
   color: black;
   padding: 10px;
   border-radius: 4px;
@@ -66,19 +69,23 @@
 
 .ingredientTitle
 {
-  background-color: red;
+  background-color: #0c8ac0;
   color: white;
-  margin: 0;
-  padding: 2px;
-  border: 1px solid black;
+  font-family: Arial;
+  margin: 8px 0 0 0;
+  padding: 8px;
+  border: 1px;
+  border-radius: 20px 20px 0 0;
 }
 
 .ingredientText
 {
-  background-color: orange;
+  background-color: #5cc7f5;
   color: black;
-  border: 1px solid black;
+  font-family: Arial;
+  border: 1px;
+  border-radius: 0 0 20px 20px;
   margin: 0;
-  padding: 2px;
+  padding: 8px;
   display: none;
 }
