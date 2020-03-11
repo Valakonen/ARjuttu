@@ -31,6 +31,7 @@
 
 .help
 {
+    user-select: none;
     background-color: #E7830B;
 }
 
