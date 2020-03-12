@@ -61,7 +61,7 @@ function changeProductInfo(markerNumber)
   document.getElementById("productName").innerHTML = products[markerNumber].name;
   document.getElementById("productDescription").innerHTML = products[markerNumber].productDescription;
   for (var x of products[markerNumber].ingredients) {
-    addIngredients(x.name, x.info);
+    addIngredients(x.name, x.info, x.imagesrc);
   }
 };
 
@@ -83,7 +83,7 @@ function removeIngredients()
 };
 
 // add ingredients
-function addIngredients(name, info)
+function addIngredients(name, info, imagesrc)
 {
   var title = document.createElement("h3");
   title.classList.add('ingredientTitle');
@@ -93,11 +93,20 @@ function addIngredients(name, info)
   var element = document.getElementById("ingredients");
   element.appendChild(title);
 
+
+  var section = document.createElement("section");
+  section.classList.add('ingredientText');
+  element.appendChild(section);
+
+  var image = document.createElement("img");
+  image.src = imagesrc;
+  image.style.width = '100%';
+  section.appendChild(image);
+
   var text = document.createElement("p");
-  text.classList.add('ingredientText');
   var ingredientText = document.createTextNode(info);
   text.appendChild(ingredientText);
-  element.appendChild(text);
+  section.appendChild(text);
 };
 
 window.addEventListener('camera-init', (data) => {
@@ -150,7 +159,7 @@ AFRAME.registerComponent('registerevents', {
         else if (markerValue == 4)
 
         //debug tuote vaihto testiä
-        lastDetectedMarker = 0;        
+        lastDetectedMarker = 0;
 
         {
 
