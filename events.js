@@ -90,19 +90,22 @@ function addIngredients(name, info, imagesrc)
   var titleText = document.createTextNode(name);
   title.appendChild(titleText);
 
-  var element = document.getElementById("ingredients");
-  element.appendChild(title);
+  //get article to which other items are added
+  var article = document.getElementById("ingredients");
+  article.appendChild(title);
 
-
+  // create section for image and text of the ingredient
   var section = document.createElement("section");
   section.classList.add('ingredientText');
-  element.appendChild(section);
+  article.appendChild(section);
 
+  //add image and add it to the section
   var image = document.createElement("img");
   image.src = imagesrc;
   image.style.width = '100%';
   section.appendChild(image);
 
+  //add text and add it to the section
   var text = document.createElement("p");
   var ingredientText = document.createTextNode(info);
   text.appendChild(ingredientText);
