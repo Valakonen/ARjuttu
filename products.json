@@ -1,6 +1,7 @@
 [{
   "name": "KAURILAN SAUNA",
   "productDescription": "Aito suomalainen luonnonkosmetiikka. Syntynyt perinteisen puusaunan lämmössä Helsingin sydämessä.",
+  "InfoButtonText": "Kaurilan sauna raaka-aineet",
   "ingredients":
   [
     {
@@ -48,6 +49,7 @@
 {
   "name": "SAAREN TAIKA",
   "productDescription": "Tokan tuotteen infoa",
+  "InfoButtonText": "Saaran taika raaka-aineet",
   "ingredients":
   [
     {
@@ -95,6 +97,7 @@
 {
   "name": "SAUNAN7SALAISUUTTA",
   "productDescription": "Kolmannen tuotteen infoa",
+  "InfoButtonText": "Saunan7salaisuutta raaka-aineet",
   "ingredients":
   [
     {
@@ -137,6 +140,7 @@
 {
   "name": "OLE HYVÄ",
   "productDescription": "Neljännen tuotteen infoa",
+  "InfoButtonText": "Ole hyvä raaka-aineet",
   "ingredients":
   [
     {
