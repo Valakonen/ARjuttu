@@ -107,8 +107,11 @@ function addIngredients(name, info, imagesrc)
 
   //add text and add it to the section
   var text = document.createElement("p");
+  text.innerHTML = info;
+  /*
   var ingredientText = document.createTextNode(info);
   text.appendChild(ingredientText);
+  */
   section.appendChild(text);
 };
 
