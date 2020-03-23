@@ -139,6 +139,7 @@ AFRAME.registerComponent('registerevents', {
         // update variable so info window can load right product
         lastDetectedMarker = markerValue;
         changeInfoButtonText(lastDetectedMarker);
+        //show info button
         document.getElementById("btns-wrap").style.display = "flex";
 
 				// TODO: Add your own code here to react to the marker being found.
