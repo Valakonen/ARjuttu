@@ -60,11 +60,15 @@ function changeProductInfo(markerNumber)
   removeIngredients();
   document.getElementById("productName").innerHTML = products[markerNumber].name;
   document.getElementById("productDescription").innerHTML = products[markerNumber].productDescription;
-  document.getElementById("help").innerText = products[markerNumber].InfoButtonText;
   for (var x of products[markerNumber].ingredients) {
     addIngredients(x.name, x.info, x.imagesrc);
   }
 };
+
+function changeInfoButtonText(markerNumber)
+{
+  document.getElementById("help").innerText = products[markerNumber].InfoButtonText;
+}
 
 // remove all ingredients
 function removeIngredients()
@@ -134,6 +138,7 @@ AFRAME.registerComponent('registerevents', {
 
         // update variable so info window can load right product
         lastDetectedMarker = markerValue;
+        changeInfoButtonText(lastDetectedMarker);
         document.getElementById("btns-wrap").style.display = "flex";
 
 				// TODO: Add your own code here to react to the marker being found.
