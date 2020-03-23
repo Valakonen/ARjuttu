@@ -133,6 +133,7 @@ AFRAME.registerComponent('registerevents', {
 
         // update variable so info window can load right product
         lastDetectedMarker = markerValue;
+        document.getElementById("btns-wrap").style.display = "flex";
 
 				// TODO: Add your own code here to react to the marker being found.
         if (markerValue == 0)
@@ -177,10 +178,6 @@ AFRAME.registerComponent('registerevents', {
               }
           }
         }
-
-        //Show info buttons
-        document.getElementById("btns-wrap").style.display == "flex";
-
 			});
 
 			marker.addEventListener('markerLost', function() {
