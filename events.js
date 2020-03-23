@@ -163,18 +163,19 @@ AFRAME.registerComponent('registerevents', {
         }
 
         else if (markerValue == 4)
-
-        //debug tuote vaihto testiä
-        lastDetectedMarker = 0;
-
         {
+          //debug tuote vaihto testiä
+          lastDetectedMarker = 0;
 
-          var children = marker.children;
-          for (var i = 0; i < children.length; i++)
-            {
-              children[i].setAttribute('animation-mixer', {clip: '*'});
+          {
 
-            }
+            var children = marker.children;
+            for (var i = 0; i < children.length; i++)
+              {
+                children[i].setAttribute('animation-mixer', {clip: '*'});
+
+              }
+          }
         }
 
         //Show info buttons
