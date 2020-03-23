@@ -179,7 +179,7 @@ AFRAME.registerComponent('registerevents', {
         }
 
         //Show info buttons
-        document.getElementById("help").style.display == "block";
+        document.getElementById("btns-wrap").style.display == "flex";
 
 			});
 

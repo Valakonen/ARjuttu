@@ -1,9 +1,9 @@
-.btns-wrap
+#btns-wrap
 {
   bottom: 20px;
   left: 20px;
   position: absolute;
-  display: flex;
+  display: none;
   flex-direction: row;
   z-index: 9000;
 }
@@ -16,7 +16,6 @@
   display: inline-block;
   padding: 20px;
   font-size: 16px;
-  display: none;
 
   background-color: #9C9D9F;
   border: none;
@@ -30,10 +29,9 @@
   transform: translateY(4px);
 }
 
-#help
+.help
 {
     user-select: none;
-    display: none;
     background-color: #0c8ac0;
     color: white;
     font-family: Arial;
