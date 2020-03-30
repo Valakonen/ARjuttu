@@ -4,8 +4,9 @@
     $(this).next().slideToggle(200);
   });
 });*/
+
 $(document).on("click",".ingredientTitle",function(){
-    $(this).next().slideToggle(200);
+    $(this).next().slideToggle(200);    
 });
 
 // Get products json file
