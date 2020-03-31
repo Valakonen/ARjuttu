@@ -6,7 +6,7 @@
 });*/
 
 $(document).on("click",".ingredientTitle",function(){
-    $(this).next().slideToggle(200);    
+    $(this).next().slideToggle(200);
 });
 
 // Get products json file
@@ -121,6 +121,15 @@ function addIngredients(name, info, imagesrc)
   section.appendChild(text);
 };
 
+function startAnimations(marker)
+{
+  var children = marker.children;
+  for (var i = 0; i < children.length; i++)
+    {
+      children[i].setAttribute('animation-mixer', {clip: '*'});
+    }
+};
+
 window.addEventListener('camera-init', (data) => {
     console.log('camera-init', data);
 })
@@ -159,6 +168,7 @@ AFRAME.registerComponent('registerevents', {
           var audio2 = new Audio('Sound_2.mp3');
           audio2.play();
           //changeProductInfo(markerValue);
+          startAnimations(marker);
         }
         else if (markerValue == 3)
         {
