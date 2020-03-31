@@ -157,44 +157,21 @@ AFRAME.registerComponent('registerevents', {
         {
           var audio = new Audio('Sound_2.mp3');
           audio.play();
-
-          //play animations
-
-
-          //changeProductInfo(markerValue);
+          startAnimations(marker);
         }
         else if (markerValue == 1)
         {
           var audio2 = new Audio('Sound_2.mp3');
           audio2.play();
-          //changeProductInfo(markerValue);
+          startAnimations(marker);
+        }
+        else if (markerValue == 2)
+        {
           startAnimations(marker);
         }
         else if (markerValue == 3)
         {
-          // funtio tästä
-          var children = marker.children;
-          for (var i = 0; i < children.length; i++)
-            {
-              children[i].setAttribute('animation-mixer', {clip: '*'});
-
-            }
-        }
-
-        else if (markerValue == 4)
-        {
-          //debug tuote vaihto testiä
-          lastDetectedMarker = 0;
-
-          {
-
-            var children = marker.children;
-            for (var i = 0; i < children.length; i++)
-              {
-                children[i].setAttribute('animation-mixer', {clip: '*'});
-
-              }
-          }
+          startAnimations(marker);
         }
 			});
 
