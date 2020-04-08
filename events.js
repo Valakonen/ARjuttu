@@ -60,6 +60,7 @@ function changeProductInfo(markerNumber)
 {
   removeIngredients();
   document.getElementById("productName").innerHTML = products[markerNumber].name;
+  //enable to use product descriptions
   //document.getElementById("productDescription").innerHTML = products[markerNumber].productDescription;
   for (var x of products[markerNumber].ingredients) {
     addIngredients(x.name, x.info, x.imagesrc);
