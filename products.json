@@ -1,6 +1,6 @@
 [{
   "name": "KAURILAN SAUNA",
-  "productDescription": "Aito suomalainen luonnonkosmetiikka. Syntynyt perinteisen puusaunan lämmössä Helsingin sydämessä.",
+  "productDescription": "",
   "InfoButtonText": "Kaurilan sauna raaka-aineet",
   "ingredients":
   [
@@ -48,7 +48,7 @@
 },
 {
   "name": "SAAREN TAIKA",
-  "productDescription": "Tokan tuotteen infoa",
+  "productDescription": "",
   "InfoButtonText": "Saaren taika raaka-aineet",
   "ingredients":
   [
@@ -96,7 +96,7 @@
 },
 {
   "name": "SAUNAN7SALAISUUTTA",
-  "productDescription": "Suomalaiset ovat saunoneet kautta vuosituhansien ja se on ollut elinehto täällä kylmässä pohjolassa. Meille on tärkeää säilyttää tämä arvokas perinne. Teimme  laadukkaan ja luonnonmukaisen Saunan7salaisuutta -tuotesarjan, jotta voisit nauttia hemmottelevasta ja terveellisestä saunaterapiasta kotona. Samalla pääset tutustumaan saunan salaisuuksiin!",
+  "productDescription": "",
   "InfoButtonText": "Saunan7salaisuutta raaka-aineet",
   "ingredients":
   [
@@ -139,7 +139,7 @@
 },
 {
   "name": "OLE HYVÄ",
-  "productDescription": "Ekologiset, ihanat ja suomalaiset Ole Hyvä -pesuaineet puhdistavat hellävaraisesti mutta tehokkaasti sekä kodin että kehon. Tuotteiden miedot, miellyttävät tuoksut tulevat aidoista eteerisistä öljyistä. Kaikki raaka-aineet ovat 100 % kasviperäisiä, biohajoavia, ympäristöystävällisiä ja vegaaneja.",
+  "productDescription": "",
   "InfoButtonText": "Ole hyvä raaka-aineet",
   "ingredients":
   [
